@@ -14,4 +14,4 @@ COPY . .
 
 EXPOSE 3300
 
-CMD [ "pm2-runtime", "start", "index.js", "-i", "4" ]
+CMD [ "pm2-runtime", "start", "index.js", "-i", "8" ]
