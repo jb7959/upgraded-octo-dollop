@@ -1,0 +1,24 @@
+{
+  "name": "upgraded-octo-dollop",
+  "version": "1.0.0",
+  "description": "upgraded-octo-dollop",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jb7959/upgraded-octo-dollop.git"
+  },
+  "author": "jay ahn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jb7959/upgraded-octo-dollop/issues"
+  },
+  "homepage": "https://github.com/jb7959/upgraded-octo-dollop#readme",
+  "dependencies": {
+    "fastify": "4.0.0-rc.5",
+    "timers": "^0.1.1"
+  }
+}

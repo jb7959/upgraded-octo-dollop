@@ -1,0 +1,13 @@
+version: "3"
+
+networks:
+  octonet:
+
+services:
+  octo:
+    image: octo:1.2.0
+    ports:
+      - "3300:3300"
+    networks:
+      - octonet
+
